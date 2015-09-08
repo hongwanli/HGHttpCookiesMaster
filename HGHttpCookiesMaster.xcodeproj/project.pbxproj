@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		38B3150B1B8B0A3800A7B82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B3150A1B8B0A3800A7B82F /* main.m */; };
 		38B3150E1B8B0A3800A7B82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B3150D1B8B0A3800A7B82F /* AppDelegate.m */; };
-		38B315111B8B0A3800A7B82F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B315101B8B0A3800A7B82F /* ViewController.m */; };
 		38B315141B8B0A3800A7B82F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B315121B8B0A3800A7B82F /* Main.storyboard */; };
 		38B315161B8B0A3800A7B82F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B315151B8B0A3800A7B82F /* Images.xcassets */; };
 		38B315191B8B0A3800A7B82F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B315171B8B0A3800A7B82F /* LaunchScreen.xib */; };
 		38B315251B8B0A3800A7B82F /* HGHttpCookiesMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B315241B8B0A3800A7B82F /* HGHttpCookiesMasterTests.m */; };
+		38B315301B8B0B4400A7B82F /* HGCookiesWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B3152F1B8B0B4400A7B82F /* HGCookiesWebVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		38B3150A1B8B0A3800A7B82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38B3150C1B8B0A3800A7B82F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38B3150D1B8B0A3800A7B82F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38B3150F1B8B0A3800A7B82F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38B315101B8B0A3800A7B82F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38B315131B8B0A3800A7B82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38B315151B8B0A3800A7B82F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38B315181B8B0A3800A7B82F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38B3151E1B8B0A3800A7B82F /* HGHttpCookiesMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGHttpCookiesMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B315231B8B0A3800A7B82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B315241B8B0A3800A7B82F /* HGHttpCookiesMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGHttpCookiesMasterTests.m; sourceTree = "<group>"; };
+		38B3152E1B8B0B4400A7B82F /* HGCookiesWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCookiesWebVC.h; sourceTree = "<group>"; };
+		38B3152F1B8B0B4400A7B82F /* HGCookiesWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCookiesWebVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				38B3150C1B8B0A3800A7B82F /* AppDelegate.h */,
 				38B3150D1B8B0A3800A7B82F /* AppDelegate.m */,
-				38B3150F1B8B0A3800A7B82F /* ViewController.h */,
-				38B315101B8B0A3800A7B82F /* ViewController.m */,
+				38B3152E1B8B0B4400A7B82F /* HGCookiesWebVC.h */,
+				38B3152F1B8B0B4400A7B82F /* HGCookiesWebVC.m */,
 				38B315121B8B0A3800A7B82F /* Main.storyboard */,
 				38B315151B8B0A3800A7B82F /* Images.xcassets */,
 				38B315171B8B0A3800A7B82F /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38B315111B8B0A3800A7B82F /* ViewController.m in Sources */,
+				38B315301B8B0B4400A7B82F /* HGCookiesWebVC.m in Sources */,
 				38B3150E1B8B0A3800A7B82F /* AppDelegate.m in Sources */,
 				38B3150B1B8B0A3800A7B82F /* main.m in Sources */,
 			);
@@ -416,6 +416,7 @@
 				38B3152A1B8B0A3800A7B82F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38B3152B1B8B0A3800A7B82F /* Build configuration list for PBXNativeTarget "HGHttpCookiesMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				38B3152D1B8B0A3800A7B82F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

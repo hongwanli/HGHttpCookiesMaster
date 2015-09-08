@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HGCookiesWebVC.h
 //  HGHttpCookiesMaster
 //
 //  Created by XiaoDou on 15/8/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HGCookiesWebVC : UIViewController
 
 @end
-
