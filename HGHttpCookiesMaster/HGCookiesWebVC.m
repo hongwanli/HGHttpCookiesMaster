@@ -7,12 +7,13 @@
 //
 
 #import "HGCookiesWebVC.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 #define kSystemCookies              @"kSystemCookies"
 
 @interface HGCookiesWebVC () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
-
+@property (nonatomic, strong) JSContext *context;
 @end
 
 @implementation HGCookiesWebVC
@@ -53,6 +54,10 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [self saveHttpRequestCookies];
+    
+    self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    
+    self.context[@"TXBB_IOS_SDK"] = self;
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A3C2B5B-36D3-4924-9D6E-6474DE17230D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HGHttpCookiesMaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA193054797121DAF47A81C0FA50FE25A6218ABC</key>
+		<string>https://github.com/hongwanli/HGHttpCookiesMaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HGHttpCookiesMaster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA193054797121DAF47A81C0FA50FE25A6218ABC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hongwanli/HGHttpCookiesMaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA193054797121DAF47A81C0FA50FE25A6218ABC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA193054797121DAF47A81C0FA50FE25A6218ABC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HGHttpCookiesMaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
